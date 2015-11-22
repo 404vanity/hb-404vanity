@@ -1,0 +1,11 @@
+{
+  "name": "404vanity",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.jade",
+  "scripts": {
+    "dev": "harp server & browser-sync start --proxy 'localhost:9000' --files '*.jade, *.md, styles/*.scss, *_data.json, js/*.js'"
+  },
+  "author": "",
+  "license": "ISC"
+}
